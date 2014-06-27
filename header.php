@@ -17,14 +17,14 @@
 
 		<header class="row">
 			<div class="col-md-12">
-				<h1 class="brand"><a href="index.php">Code Education</a></h1>
+				<h1 class="brand"><a href="./index.php">Code Education</a></h1>
 
 				<ul class="nav nav-tabs" role="tablist">
-					<li><a href="index.php" title="">Home</a></li>
-					<li><a href="empresa.php" title="">Empresa</a></li>
-					<li><a href="produtos.php" title="">Produtos</a></li>
-					<li><a href="servicos.php" title="">Serviços</a></li>
-					<li><a href="contato.php" title="">Contato</a></li>
+					<li><a href="./index.php" title="">Home</a></li>
+					<li><a href="./?page=empresa" title="">Empresa</a></li>
+					<li><a href="./?page=produtos" title="">Produtos</a></li>
+					<li><a href="./?page=servicos" title="">Serviços</a></li>
+					<li><a href="./?page=contato" title="">Contato</a></li>
 				</ul>	
 
 			</div>

@@ -1,4 +1,8 @@
 <?php 
+$name = $_POST["name"];
+$email = $_POST["email"];
+$subject = $_POST["subject"];
+$message = $_POST["message"];
 require_once("header.php");
 ?>
 
@@ -9,22 +13,22 @@ require_once("header.php");
 
 		<p>
 			<strong>Nome:</strong><br>
-			Menu nome			
+			<?= $name; ?>			
 		</p>		
 
 		<p>
 			<strong>Email:</strong> <br>
-			Meu e-mail
+			<?= $email; ?>
 		</p>
 
 		<p>
 			<strong>Assunto:</strong> <br>
-			Assunto
+			<?= $subject; ?>
 		</p>
 
 		<p>
 			<strong>Mensagem:</strong> <br>
-			Mensagem
+			<?= $message; ?>
 		</p>		
 
 

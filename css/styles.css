@@ -1,7 +1,8 @@
 header{
 	margin-bottom:20px;
 }
-.bg-success{
+.bg-success, 
+.bg-danger{
 	padding: 20px;
 }
 footer{
